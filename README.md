@@ -23,3 +23,9 @@ ____
 ```bash
 # Basta clonar o projeto e abrir o arquivo flappy.html
 ```
+
+<p><i>
+  
+>*Author: [@ManoMax](https://github.com/ManoMax)*
+
+</i></p>
