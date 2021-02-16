@@ -4,7 +4,12 @@
 </h5>
 
 <p>
+  <h5>Resumo:</h5>
+  
   Flappy Bird é um jogo eletrônico para dispositivos móveis de 2013 desenvolvido em Hanói pelo programador vietnamita Nguyễn Hà Đông e publicado pela .GEARS studios.
+  
+  <h5>Objetivo:</h5>
+  
   O objetivo no jogo é ganhar o maior número possível de pontos, controlando um pássaro (tocando em qualquer botão) sem deixá-lo colidir nos canos. Se o pássaro tocar em algum obstáculo, o jogo termina. Sempre que o personagem passa por um conjunto de canos, o jogador ganha um ponto.
 </p>
 
