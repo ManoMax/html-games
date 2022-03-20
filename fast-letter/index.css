@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#background {
+    height: 100vh;
+    background-color: #AB6832;
+    color:#49281A;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#tutorial {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    background: #DFB78C;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 48px;
+    text-align: center;
+    font-size: 18px;
+    height: 75%;
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #DFB78C;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 48px;
+    text-align: center;
+    font-size: 18px;
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#rank {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    background: #DFB78C;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 48px;
+    text-align: center;
+    font-size: 18px;
+    height: 75%;
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#ranktittle {
+    margin-bottom: 32px;
+}
+
+.top {
+    font-size: 16px;
+    margin-top: 18px;
+}
+
+#divname {
+    font-size: 12px;
+}
+
+#name {
+    margin-top: 12px;
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    font-size: 16px;
+}
+
+#letter {
+    font-size: 64px;
+    margin: 16px;
+}
+
+footer {
+    background-color: #AB6832;
+    color: #49281A;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}

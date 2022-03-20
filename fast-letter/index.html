@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Letter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="background">
+        <div id="content">
+            <div id="tutorial">
+                <h1>Tutorial:</h1>
+                <div id="divname">
+                    <p>Digite seu nome abaixo:</p>
+                    <input id="name" type="name"/>
+                </div>
+                <p>1. Para começar o game: Clique na "caixa de entrada" abaixo do Timer.</p>
+                <p>2. Fique atento na contagem e digite a letra que aparecer, o mais rápido que conseguir.</p>
+                <p>3. Um cronometro irá rolar e, caso você atinja um novo record, teu nome e tempo serão adicionados na tabela de Rankeamento.</p>
+                <p>4. Para uma nova rodada, basta clicar novamente na "caixa de entrada" abaixo do Timer.</p>
+                <p>5. Não esqueça de escrever teu nome na "caixa de entrada" acima.</p>
+            </div>
+            <div id="game">
+                <h1 id="title">Fast Letter</h1>
+                <p id="timing">Timer: 00:00</p>
+                <p id="letter">...</p>
+                <input type="text" onclick="start()" onkeypress="myKeyPress(event)" />
+            </div>
+            <div id="rank">
+                <h1 id ="ranktittle">Ranking:</h1>
+                <div>
+                    <p id="top1" class="top">1. - </p>
+                    <p id="top2" class="top">2. - </p>
+                    <p id="top3" class="top">3. - </p>
+                    <p id="top4" class="top">4. - </p>
+                    <p id="top5" class="top">5. - </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        By: Mano Max 🤍
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
