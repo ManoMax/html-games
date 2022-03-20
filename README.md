@@ -1,6 +1,3 @@
-# html-games
-🎮 Games - with: JS, CSS and HTML.
-
 <h1> :video_game: HTML Games </h1>
 <h5>
   Codes by: <a href="https://github.com/ManoMax">Mano Max</a>
